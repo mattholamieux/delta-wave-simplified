@@ -1,1 +1,2 @@
-# delta-wave-simplified
+# delta_waves
+polyrythmic synthesizer

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="style.css" type="text/css" rel="stylesheet">
+	<title>DELTA WAVE</title>
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/Tone.js"></script>
+	<script src="libraries/p5.play.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="libraries/beet.js"></script>
+	<script src="libraries/theoryHelper.js"></script>
+
+	<script src="main.js"></script>
+	<script src='scripts/trig.js'></script>
+	<script src='scripts/tick.js'></script>
+	<script src='scripts/ring.js'></script>
+	<script src='scripts/sequencer.js'></script>
+	<script src='scripts/initialization.js'></script>
+	<script src='scripts/master-control.js'></script>
+	<script src='scripts/slider.js'></script>
+	<script src='scripts/instructions.js'></script>
+	<script src='scripts/startPage.js'></script>
+	<script src='scripts/masterPage.js'></script>
+	<script src='scripts/clocks.js'></script>
+	<script src='scripts/synthPage.js'></script>
+	<script src='scripts/visualization.js'></script>
+	<script src='scripts/keyControls.js'></script>
+	<script>
+		window.addEventListener("keydown", function(e) {
+			if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+				e.preventDefault();
+			}
+		}, false);
+	</script>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+
+		canvas {
+			margin: auto;
+		}
+	</style>
+</head>
+
+<body>
+</body>
+
+</html>
